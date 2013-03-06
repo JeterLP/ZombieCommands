@@ -1,0 +1,30 @@
+name: ZombieCommands
+version: 1.1
+description: ZombieCommands by JeterLP!
+author: JeterLP
+website: http://dev.bukkit.org/profiles/JeterLP
+
+main: de.JeterLP.ZombieCommands2.Main
+
+commands: 
+  tpd:
+    description:  Direct teleport to somebody
+    usage: /<command> 
+  tpdhere:
+    description: Direct teleport to you
+    usage: /<command>
+  god:
+    description: godmode!
+    usage: /<command>
+    aliases: [g, gg]
+  kill:
+    description: Kills a player!
+    usage: /<command> <Player>
+  damage:
+    description: gives a Player damage
+    usage: /<command>
+    aliases: [dmg]
+  fly:
+    description: Fly high!
+    usage: /<command>
+    aliases: [f]
