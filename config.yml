@@ -1,0 +1,27 @@
+#This is the configuration file of the ZombieCommands plugin by JeterLP. For more informations visit: http://dev.bukkit.org/server-mods/ZombieCommands/
+Config:
+  UseMetrics: true
+  CheckForUpdates: true
+  TimeOutput:
+    enabled: true
+    IntervalTime: 360
+    message: 'It is %time% now!'
+  JoinMessage: '&eWelcome %player% &eto the server'
+  QuitMessage: '%player% &eleft the game!'
+  KickMessage: '&e%player% &ewas kicked from the Server'
+  FirstJoinMessage: '%player% &ejoined the game &6for the first time&e!'
+  OpJoinMessage:
+    use: true
+    message:  '%player% &c Joined the game, &6do not break the rules!'
+  PlayerNotOnline: 'The player is not online!'
+  ToManyArguments: '&4To many arguments!'
+  ToFewArguments: '&4To few arguments'
+  NoPermission: '&4You dont have permission!'
+  FlyOff: '&cFly-mode is now off for you!'
+  FlyOn: '&aFly-mode is now on for you!'
+  GodOff: '&cGod-mode is now off for you!'
+  GodOn: '&aGod-mode is now on for you!'
+  DirectTeleportTo: '&6Successfully teleported to &a%target%'
+  DirectTeleportHere: '&6Successfully teleported &a%target% &6to you!'
+  Kill: '%player% &ais now dead!'  
+  Damage: '&a%target% &ahas got %damage% damage!'
